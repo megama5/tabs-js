@@ -6,6 +6,8 @@
 	
 	<link rel="stylesheet" href="assets/dist/style.css">
 	<meta name="description" content="Tabs example with jQuery">
+
+	<script src="plugin/jquery/jquery-3.2.1.min.js"></script>
 </head>
 <body>
 
@@ -14,15 +16,15 @@
 		<section class="tabs">
 			<div class="tabs__wrap">
 				<div class="tabs__header">
-					<div class="tabs__header-block tabs__header-block--active">
+					<div class="tabs__header-block tabs__header-block--active" data-id="1">
 						<img src="assets/img/header_grp_1.svg" alt="Tab icon" class="tabs__header-img">
 						<p class="tabs__header-text">INFORMATION</p>
 					</div>
-					<div class="tabs__header-block">
+					<div class="tabs__header-block" data-id="2">
 						<img src="assets/img/header_grp_2.svg" alt="Tab icon" class="tabs__header-img">
 						<p class="tabs__header-text">RATINGS INFO</p>
 					</div>
-					<div class="tabs__header-block">
+					<div class="tabs__header-block" data-id="3">
 						<img src="assets/img/header_grp_3.svg" alt="Tab icon" class="tabs__header-img">
 						<p class="tabs__header-text">WHERE TO BUY</p>
 					</div>

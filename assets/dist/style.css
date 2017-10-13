@@ -81,7 +81,8 @@ table {
       flex-wrap: wrap;
       height: 100%;
       opacity: .7;
-      position: relative; }
+      position: relative;
+      cursor: pointer; }
       .tabs__header-block--active {
         opacity: 1; }
         .tabs__header-block--active:after {
