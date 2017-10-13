@@ -1,0 +1,11 @@
+@mixin activeTitle(){
+	opacity: 1;
+	&:after{
+		width: 150px;
+		height: 4px;
+		content: '';
+		position: absolute;
+		bottom: 0;
+		background-color: #ffffff; 
+	}
+}

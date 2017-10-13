@@ -1,3 +1,113 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
 
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  transition: all .3s ease; }
+
+.container, .tabs {
+  width: 1008px;
+  height: 861px;
+  margin: 0 auto; }
+
+.tabs {
+  background: url("../img/bg.png") no-repeat #292d3e;
+  padding-top: 145px; }
+  .tabs__wrap {
+    width: 602px;
+    height: 543px;
+    margin: 0 auto;
+    box-shadow: 0 23px 57px rgba(0, 0, 0, 0.4);
+    background-color: #212534; }
+  .tabs__header {
+    height: 117px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    background-color: #262836; }
+    .tabs__header-block {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      height: 100%;
+      opacity: .7;
+      position: relative; }
+      .tabs__header-block--active {
+        opacity: 1; }
+        .tabs__header-block--active:after {
+          width: 150px;
+          height: 4px;
+          content: '';
+          position: absolute;
+          bottom: 0;
+          background-color: #ffffff; }
+      .tabs__header-block:hover {
+        opacity: 1; }
+        .tabs__header-block:hover:after {
+          width: 150px;
+          height: 4px;
+          content: '';
+          position: absolute;
+          bottom: 0;
+          background-color: #ffffff; }
+    .tabs__header-img {
+      width: 26px;
+      height: 26px;
+      margin-bottom: 10px; }
+    .tabs__header-text {
+      color: #fbfbfb;
+      font-family: 'Lato', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      text-transform: uppercase; }
 
 /*# sourceMappingURL=style.css.map */
