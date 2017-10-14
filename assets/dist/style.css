@@ -192,9 +192,9 @@ table {
         background: url(../img/ellipse-5-copy.png) no-repeat 100% 0%;
         width: 76px;
         height: 76px;
-        top: -26px;
+        top: -27px;
         left: -25px;
-        background-size: contain; }
+        background-size: 87%; }
   .body-right__text {
     color: #b7bacd;
     font-family: 'Lato', sans-serif;
