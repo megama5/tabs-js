@@ -44,14 +44,14 @@
 			position: relative;
 
 	    &:after{
-		    content: '';
-		    position: absolute;
-		    background: url(../img/ellipse-5-copy.png) no-repeat 100% 0%;
-		    width: 76px;
-		    height: 76px;
-		    top: -26px;
-		    left: -25px;
-		    background-size: contain;
+				content: '';
+				position: absolute;
+				background: url(../img/ellipse-5-copy.png) no-repeat 100% 0%;
+				width: 76px;
+				height: 76px;
+				top: -27px;
+				left: -25px;
+				background-size: 87%;
     }
 
     }
